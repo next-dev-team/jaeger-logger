@@ -15,7 +15,8 @@ ref: https://www.npmjs.com/package/jaeger-client
  ```
  docker network create network_name
  ```
- for dashboard access
+ for code & dashboard access
  ```
- http://localhost:16686/search
+ node sdk: localjost:14268
+ dashboard: http://localhost:16686/search
  ```
